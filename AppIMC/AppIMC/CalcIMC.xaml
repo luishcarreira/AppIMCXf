@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppIMC.CalcIMC">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Calculo do Índice de Massa Corporal - IMC" />
+
+            <Entry x:Name="txtAltura" Placeholder="Informe sua altura" Keyboard="Numeric"/>
+            <Entry x:Name="txtPeso" Placeholder="Informe seu peso" Keyboard="Numeric"/>
+
+            <Button x:Name="btnCalcular" Text="Calcular" Clicked="btnCalcular_Clicked"/>
+
+            <Label Text="Resultado" />
+            <Label x:Name="vAltura" Text="" />
+            <Label x:Name="vPeso" Text="" />
+            <Label x:Name="vIMC" Text="" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
