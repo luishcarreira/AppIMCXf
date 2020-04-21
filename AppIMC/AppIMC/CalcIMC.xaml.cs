@@ -36,7 +36,7 @@ namespace AppIMC
                 DisplayAlert("Error", "Informe um peso valido", "Fechar");
             }
 
-            imc = peso * (altura * altura);
+            imc = peso / (altura * altura);
 
             if (imc < 18.5)
             {

@@ -10,7 +10,7 @@ namespace AppIMC
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new CalcIMC();
         }
 
         protected override void OnStart()
